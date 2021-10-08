@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: green;
+        }
+        a:hover {
+            color: indigo;
+        }
+
+        h1:hover {
+            color: khaki;
+        }
+        h1.text-green {
+            color: green
+        }
+        p.text-yellow {
+            color: yellow;
+        }
+        div.align-right h1 {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <body style="background-color: honeydew;">
+        <h1 style="color: rgba(133, 113, 98, 0.705); font-size: 50px; text-align: center;">
+           Hello World! 
+        </h1>
+
+        <div style="text-align: center">
+            <a style="text-align: center;" href="https://naointendo.com.br">Não Intendo</a>
+        </div><br>
+
+        <div style="text-align: center">
+            <h1 class="text-green">
+                h1 selecionado por nome e classe
+            </h1>
+            <p class="text-yellow">
+                O blog não intendo é o favorito da Michelle
+            </p>
+
+        </div>
+
+        <div class="align-right">
+            <h1>
+                Texto alinhado a direita, pois, esta dentro da div com classe align-right
+            </h1>
+            <p>
+                Não vai estar alinhado pois nao cumpre os requisitos
+            </p>
+        </div>
+
+        <div class="center-external">
+            <h1>
+                Texto centralizado vindo do css externo
+            </h1>
+        </div>
+
+        <div class="container">
+            <div class="grid-item">
+               1 
+            </div>
+            <div class="grid-item">
+                2
+            </div>
+            <div class="grid-item">
+                3
+            </div>
+            <div class="grid-item">
+                4
+            </div>
+            <div class="grid-item">
+                5
+            </div>
+            <div class="grid-item">
+                6
+            </div>
+
+
+        </div>
+        <div class="container">
+            <div class="flex-container">
+                <div>
+                    1
+                </div>
+                <div>
+                    2
+                </div>
+                <div>
+                    3
+                </div>
+                <div>
+                    4
+                </div>
+                <div>
+                    5
+                </div>
+                <div>
+                    6
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <form>
+                <label for="name"> Primeiro nome: </label>
+                <input type="text" name="primero_nome" id="name" placeholder="primeiro nome">
+                <label for="last-name">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="last-name" placeholder="Sobrenome">
+
+                <label for="nacionalidade">País</label>
+                <select name="nacionalidade" id="nacionalidade">
+                    <option>Brasil</option>
+                    <option>Japão</option>
+                </select>
+
+                <input type="submit">
+            </form>
+        </div>
+
+    </body>
+</body>
+</html>
